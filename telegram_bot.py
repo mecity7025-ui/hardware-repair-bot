@@ -17,7 +17,7 @@ def keep_alive():
     t = Thread(target=run)
     t.start()
 
-# --- ഒറിജിനൽ ടോക്കൺ ഇവിടെ സെറ്റ് ചെയ്തിട്ടുണ്ട് ---
+# --- ഒറിജിനൽ ടോക്കൺ ഇവിടെ കൃത്യമായി ചേർത്തിട്ടുണ്ട് ---
 BOT_TOKEN = "8829939412:AAFCSWd3CXPk8LJ0cm_IJujH7_WRAJ5dzG4"
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -54,7 +54,7 @@ def handle_all_messages(message):
         response = (
             "📶 **4G / 5G Network Section Diagnostic Steps:**\n\n"
             "1. **WTR / Transceiver IC:** നോ സർവീസ് (No Service) പ്രശ്നങ്ങൾക്ക് ആദ്യം WTR IC-യുടെ വോൾട്ടേജുകൾ (1.0V, 1.8V) ചെക്ക് ചെയ്യുക.\n"
-            "2. **PA (Power Amplifier):** 4G/2G പിഎ (PA) സെക്ഷനിലേക്ക് VPH_PWR വോൾട്ടേജ് കൃത്യമായി കിട്ടുന്നുണ്ടോ എന്ന് നോക്കുക.\n"
+            "2. **PA (Power Amplifier):** 4G/2G പിഎ (PA) സെക്ഷനിലേക്ക് VPH_PWR വോൾട്ടേജ് കൃത്യമായി киട്ടുന്നുണ്ടോ എന്ന് നോക്കുക.\n"
             "3. **Antenna Switch:** ആന്റിന സ്വിച്ചും ക്രിസ്റ്റൽ ഓസിലേറ്ററും (XO) കേടാണോ എന്ന് ഉറപ്പുവരുത്തുക."
         )
         bot.reply_to(message, response, parse_mode="Markdown")
