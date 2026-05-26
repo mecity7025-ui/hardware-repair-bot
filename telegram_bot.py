@@ -17,8 +17,8 @@ def keep_alive():
     t = Thread(target=run)
     t.start()
 
-# --- Telegram Bot Token ---
-BOT_TOKEN = "8995026422:AAHjalJO7cf85skxE1sYh14N7LlmjUQ4ocQ" 
+# --- ഒറിജിനൽ ടോക്കൺ ഇവിടെ അപ്ഡേറ്റ് ചെയ്തിട്ടുണ്ട് ---
+BOT_TOKEN = "8829939412:AAFCSWd3CXPk8LJ0cm_IJujH7_WRAJ5dzG4" 
 bot = telebot.TeleBot(BOT_TOKEN)
 
 @bot.message_handler(commands=['start'])
